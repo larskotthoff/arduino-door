@@ -281,8 +281,7 @@ void setup() {
     
       gfx.commit();
 
-      // sleep one day (+ clock drift)
-      ESP.deepSleep(88000e6);
+      ESP.deepSleep(4000e6);
     } else {
       gfx.fillBuffer(MINI_WHITE);
       gfx.setColor(MINI_BLACK);
