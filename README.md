@@ -4,6 +4,8 @@ This is a basic project to display a public Google calendar on a low-power e-ink
 screen, suitable for doors to show when the room is free or the occupant will be
 there.
 
+![Door display in action](/door.jpg)
+
 Hardware used: https://www.tindie.com/products/squix78/esp8266-29-espaper-plus-module-e-ink/
 
 It wakes up once a day, connects to the specified wifi network, synchronizes the
